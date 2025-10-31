@@ -2,15 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package sudokulab;
+package SudokuLab;
+
 import javax.swing.*;
 import java.awt.*;
-/**
- *
- * @author User
- */
-public class SudokuLab {
 
+public class SudokuLab {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
             JFrame ventana = new JFrame("Sudoku");
@@ -52,3 +49,4 @@ public class SudokuLab {
         });
     }
 }
+

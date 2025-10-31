@@ -1,19 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package sudokulab;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Random;
-/**
- *
- * @author User
- */
+package SudokuLab;
+
+import java.util.*;
+
 public class Juego {
     private int[][] matriz = new int[9][9];
     private boolean[][] bloqueados = new boolean[9][9];
-    //prueba 
 
     public int obtenerValor(int fila, int columna) {
         return matriz[fila][columna];
@@ -191,3 +182,4 @@ public class Juego {
         return copia;
     }
 }
+

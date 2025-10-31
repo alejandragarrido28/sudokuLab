@@ -1,24 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package sudokulab;
+package SudokuLab;
 
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.GridLayout;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
-import javax.swing.SwingConstants;
+import java.awt.event.*;
+import javax.swing.*;
 import javax.swing.border.MatteBorder;
 
-/**
- *
- * @author mavasquez
- */
 public class Tablero extends JPanel {
     private JTextField[][] campos = new JTextField[9][9];
     private EscuchadorCelda escuchador;
@@ -112,7 +101,7 @@ public class Tablero extends JPanel {
         if (esFilaActual || esColActual || mismoCuadrante) {
             campo.setBackground(new Color(235, 240, 245));
         } else {
-            campo.setBackground(Color.WHITE); //color
+            campo.setBackground(Color.WHITE);
         }
     }
 
