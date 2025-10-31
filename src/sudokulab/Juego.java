@@ -13,6 +13,7 @@ import java.util.Random;
 public class Juego {
     private int[][] matriz = new int[9][9];
     private boolean[][] bloqueados = new boolean[9][9];
+    //prueba 
 
     public int obtenerValor(int fila, int columna) {
         return matriz[fila][columna];
