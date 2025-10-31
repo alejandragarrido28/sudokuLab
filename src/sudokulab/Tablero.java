@@ -112,7 +112,7 @@ public class Tablero extends JPanel {
         if (esFilaActual || esColActual || mismoCuadrante) {
             campo.setBackground(new Color(235, 240, 245));
         } else {
-            campo.setBackground(Color.WHITE);
+            campo.setBackground(Color.WHITE); //color
         }
     }
 
